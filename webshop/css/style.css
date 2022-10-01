@@ -200,4 +200,85 @@ height: 40px;
             display: flex;
             justify-content: end;
             align-items: center;
+            background-color: var(--color-theme);
         }
+        
+
+/*slider*/
+.slider {
+    background-color: var(--color-gray-3);
+}
+    .slider .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .slider .slider-body {
+        
+    }
+        .slider .slider-body h1{
+            font-family: var(--font-play);
+            font-size: var(--font-size-60);
+
+        }
+        .slider .slider-body h1 strong {
+            font-weight: var(--font-weight-bold);
+            color: var(--color-theme);
+            
+        }
+        .btn {
+            background-color: var(--color-white);
+            border: none;
+            color: var(--color-theme);
+            border-radius: var(--border-radius-medium);
+            font-weight: var(--font-weight-medium);
+            padding-left: 2rem;
+            padding-right: 2rem;
+
+        }
+        .btn:hover {
+            background-color: var(--color-theme-dark);
+            
+            color: var(--color-white);
+           
+
+        }
+/* info boxes*/
+.info-boxes {
+    padding: 4rem 0; 
+}
+    .info-boxes .container-fluid {
+        display:flex;
+        justify-content: space-evenly;
+
+    }
+    .info-boxes .info-box {
+        background-color: var(--color-theme-light);
+        display: flex;
+        align-items: center;
+        margin: 0 2rem;
+        flex: 1;
+        padding: 1.5rem;
+        border-radius: var(--border-radius-small);
+    }
+    .info-boxes .info-box:hover {
+        background-color: var(--color-theme);
+        color: var(--color-white);
+    }
+       
+       
+    .info-boxes .info-box img {
+        margin-right: 1.5rem;
+    }
+        .info-boxes .info-box:hover img {
+            filter: brightness(1000%)
+        }
+    .info-boxes .info-box h2 {
+        color: var(--color-theme);
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-medium);
+    }
+        .info-boxes .info-box:hover h2 {
+            color: var(--color-white);
+        }
+    
